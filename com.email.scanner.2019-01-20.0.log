@@ -1,0 +1,17 @@
+01:13:32.572 [AWT-EventQueue-0] INFO  c.e.s.ReceiveEmailWithAttachment - New run. Initializing.
+01:13:32.575 [AWT-EventQueue-0] DEBUG c.e.s.ReceiveEmailWithAttachment - get the property values
+01:13:32.575 [AWT-EventQueue-0] INFO  c.e.s.ReceiveEmailWithAttachment - Running under: 
+ LOGIN: akrasilnikov@i-novus.ru PASSWORD: q21xkr927 
+01:13:32.590 [AWT-EventQueue-0] INFO  c.e.s.ReceiveEmailWithAttachment - Connecting to imap...
+01:13:33.386 [AWT-EventQueue-0] INFO  c.e.s.ReceiveEmailWithAttachment - Connect succeeded!
+01:13:33.386 [AWT-EventQueue-0] INFO  c.e.s.ReceiveEmailWithAttachment - Looking for our email...
+01:13:43.576 [AWT-EventQueue-0] INFO  c.e.s.ReceiveEmailWithAttachment - FOUND A MESSAGE : 
+ Sat Jan 19 23:59:03 MSK 2019 
+ WITH SUBJECT: ttt 
+...seeking for an attachments
+01:13:43.698 [AWT-EventQueue-0] INFO  c.e.s.ReceiveEmailWithAttachment - Attachment saved as 1.xlsx
+01:13:43.744 [AWT-EventQueue-0] INFO  c.e.s.ReceiveEmailWithAttachment - Attachment saved as 2.xlsx
+01:13:43.744 [AWT-EventQueue-0] WARN  c.e.s.ReceiveEmailWithAttachment - 
+ COULD NOT FIND A MESSAGE WITH SUBJECT: ttt
+01:13:43.823 [AWT-EventQueue-0] INFO  c.e.s.ReceiveEmailWithAttachment - END 
+
