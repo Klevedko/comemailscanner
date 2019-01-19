@@ -10,9 +10,7 @@ import org.apache.commons.io.IOUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import static com.email.scanner.ReadProperties.printProperties;
 import static com.email.scanner.ReadProperties.properties;
-import static com.email.scanner.ReadProperties.readPropertiesFromConfigFile;
 
 public class ReceiveEmailWithAttachment {
     public static Logger logger = LoggerFactory.getLogger(ReceiveEmailWithAttachment.class);
